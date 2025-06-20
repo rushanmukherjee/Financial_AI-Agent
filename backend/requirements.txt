@@ -1,0 +1,13 @@
+# Core web framework
+fastapi==0.104.1
+uvicorn==0.24.0
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Basic data handling (we'll use this for market data later)
+yfinance==0.2.18
+requests==2.31.0
+
+# CORS middleware (already included in FastAPI, but good to be explicit)
+python-multipart==0.0.6
